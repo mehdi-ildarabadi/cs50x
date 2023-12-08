@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Laptops-Mahdi's Store</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("https://dlcdnwebimgs.asus.com/files/media/66CA1B3A-32B3-44A6-9D99-9CEED66D168B/v1/images/large/1x/1__kv.webp")}
+.bgimg2 {background-image: url("https://dlcdnwebimgs.asus.com/files/media/66CA1B3A-32B3-44A6-9D99-9CEED66D168B/v1/images/large/1x/2__performance_laptop.webp")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h3 class="w3-jumbo">ROG STRIX SCAR 17</h3>
+    <h2><b>BEAT THE BEST. CARVE YOUR LEGACY.</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Ryzen to the Challenge​</a>
+    <a href="#STAY CONNECTED" style="width:25%" class="w3-bar-item w3-button">STAY CONNECTED</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">BUY</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Ryzen to the Challenge</b></h1>
+    <img class="w3-round w3-grayscale-min" src="https://dlcdnwebimgs.asus.com/files/media/66CA1B3A-32B3-44A6-9D99-9CEED66D168B/v1/images/large/1x/3__performance2_pic1.webp" style="width:100%;margin:32px 0">
+    <p><i>Power through any game or project with an AMD Ryzen™ 9 7945HX processor, featuring up to a 65W TDP. Bringing 16 cores and 32 threads to a laptop form factor, this processor is here to help you dominate all of your games, no matter what you have running in the background.</i>
+    </p><br>
+    <p class="w3-center"><a href="#STAY CONNECTED" class="w3-button w3-black w3-round w3-padding-large w3-large">STAY CONNECTED</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">BATTLESTATION READY</h1><br>
+    <h2>The RJ45 is not the only port in this storm. The dedicated GPU hosts an HDMI 2.1 port for the latest TVs and monitors, increasing total bandwidth from 18 to 48Gbps, and supporting up to 4K 120Hz and 8K 60Hz content.  Two USB Type-C ports allow for plenty of connectivity with DisplayPort and power delivery.</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="STAY CONNECTED">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>STAY CONNECTED</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="https://dlcdnwebimgs.asus.com/files/media/66CA1B3A-32B3-44A6-9D99-9CEED66D168B/v1/images/large/1x/17__connectivity2_laptop.webp" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-center">
+        <h2>In modern multiplayer games, a stable internet connection is imperative. The SCAR 17 is ready to join the fight with a dedicated RJ45 port supporting 2.5G LAN, as well as the latest Wi-Fi 6E wireless standard. For local connections, the SCAR 17 supports Bluetooth 5.2, enabling seamless pairing with all of your peripherals. Never lag out again.</h2>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>hope is good for you</h1>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">BUY</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">IF YOU WANT BUY</h1>
+      <p>We really hope you buy it.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Mahdi's store</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Buy</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Later</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://github.com/mehdi-ildarabadi" title="Ildarabadi" target="_blank" class="w3-hover-text-green">Ildarabadi</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
+
+<script>
+function openLaptopsPage() {
+  window.open('Laptops.html', '_blank');
+}
+</script>
