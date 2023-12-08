@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobiles-Mahdi's Store</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("https://image-us.samsung.com/us/smartphones/galaxy-s23/configurator/D3-Marketing-Images-DT-1440x368.jpg")}
+.bgimg2 {background-image: url("https://image-us.samsung.com/us/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-spen.jpg")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h3 class="w3-jumbo">Samsung</h3>
+    <h2><b>Galaxy S23 Ultra</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Material</a>
+    <a href="#cameras" style="width:25%" class="w3-bar-item w3-button">Cameras</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">BUY</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Material</b></h1>
+    <img class="w3-round w3-grayscale-min" src="https://images.samsung.com/iran/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-materials-s.jpg" style="width:100%;margin:32px 0">
+    <p><i>Get to know the durable design that has been created with the durability of the product in mind. The Galaxy S23 Ultra is durable thanks to Corning® Gorilla® Glass Victus® 2 on the front and back glass, and takes the market by storm with a frame made of the most durable Armor Aluminum ever used in a Samsung Galaxy smartphone. . And the IP68 rating means that your phone can be used in any conditions thanks to its resistance to dust and water..</i>
+    </p><br>
+    <p class="w3-center"><a href="#Cameras" class="w3-button w3-black w3-round w3-padding-large w3-large">Cameras</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">S PEN
+      Note's signature tool comes built in</h1><br>
+    <h2>S Pen keeps the legacy of Galaxy Note alive. Capture scribbles, strokes of genius and everything in between with the built-in S Pen. You can even use it to snap pics without needing to set a selfie timer.</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="Cameras">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>Cameras</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="https://image-us.samsung.com/SamsungUS/configurator/PC_L2_Camera_3.png" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>BATTERY
+          Bring on the
+          boss battles</h2>
+        <p>Meet the long-lasting battery made to fuel your victories. This intelligent 5000mAh (typical) battery saves power for go time, so you can game and stream into the night.</p>
+      </div>
+      <div class="w3-half">
+        <h2>DISPLAY
+          A bright future
+          in sight</h2>
+        <p>Dynamic AMOLED 2X delivers clear, colorful details on screen, whether dimmed low or on full brightness. 120Hz technology intelligently optimizes the refresh rate to smooth out action and save on battery.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>hope is good for you</h1>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">BUY</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">IF YOU WANT BUY</h1>
+      <p>We really hope you buy it.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Mahdi's store</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Buy</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Later</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://github.com/mehdi-ildarabadi" title="Ildarabadi" target="_blank" class="w3-hover-text-green">Ildarabadi</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
+
+<script>
+function openMobilesPage() {
+  window.open('mobiles.html', '_blank');
+}
+</script>
